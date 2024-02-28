@@ -1,16 +1,22 @@
+body {
+  display: inline-flex;
+}
 .pricing-plan {
-  width: 300px;
+  position: relative;
+  top: 30px;
+  width: 280px;
+  height: 310px;
   box-shadow: 0 0 10px rgba(10, 10, 10, 10);
   border-radius: 25px;
   font-size: 16px;
   font-family: sans-serif;
   line-height: 1.5;
-  margin: 25px;
+  margin: 30px;
 }
 .header-section {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  background: linear-gradient(to right, #fbff00, #ff9100, #e600ff);
+  background: linear-gradient(to right, #fff2d8, #ffd099, #ff9209);
 }
 .price {
   font-size: 50px;
@@ -18,6 +24,112 @@
   text-align: center;
 }
 .buy {
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 10%;
+  background: linear-gradient(to right, #fff2d8, #ffd099, #ff9209);
+  margin-left: 33%;
+  margin-bottom: 0%;
+}
+h1 {
+  text-align: center;
+  font-weight: 1000;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+h2 {
+  text-align: center;
+  font-weight: 100;
+  font-family: sans;
+  font-size: 15px;
+  margin-top: 5%;
+}
+.list {
+  margin-left: 55px;
+}
+
+/* standar plan */
+.pricing-plan2 {
+  position: relative;
+  top: 10px;
+  width: 300px;
+  height: 335px;
+  box-shadow: 0 0 20px rgba(10, 10, 10, 10);
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 30px;
+}
+.recommended {
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #211c6a, #211c6a);
+}
+.header-section2 {
+  background: linear-gradient(to right, #59b4c3, #74e291, #eff396);
+}
+.price2 {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.buy2 {
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 10%;
+  background: linear-gradient(to right, #59b4c3, #74e291, #eff396);
+  margin-left: 33%;
+  margin-bottom: 2%;
+}
+h1 {
+  text-align: center;
+  font-weight: 1000;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+h2 {
+  text-align: center;
+  font-weight: 100;
+  font-family: sans;
+  font-size: 15px;
+  margin-top: 5%;
+}
+.list2 {
+  margin-left: 55px;
+}
+
+/* premium */
+.pricing-plan3 {
+  position: relative;
+  top: 30px;
+  width: 280px;
+  height: 310px;
+  box-shadow: 0 0 10px rgba(10, 10, 10, 10);
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 30px;
+}
+.header-section3 {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background: linear-gradient(to right, #fbff00, #ff9100, #e600ff);
+}
+.price3 {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.buy3 {
   height: 30px;
   font-size: 20px;
   font-weight: bold;
@@ -31,6 +143,7 @@ h1 {
   text-align: center;
   font-weight: 1000;
   margin-bottom: 0%;
+  margin-top: 0%;
 }
 h2 {
   text-align: center;
@@ -39,6 +152,6 @@ h2 {
   font-size: 15px;
   margin-top: 5%;
 }
-.list {
+.list3 {
   margin-left: 55px;
 }
