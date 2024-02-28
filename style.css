@@ -1,7 +1,8 @@
-body {
+.price-plans {
   display: inline-flex;
 }
 .pricing-plan {
+  flex-grow: 1;
   position: relative;
   top: 30px;
   width: 280px;
@@ -154,4 +155,11 @@ h2 {
 }
 .list3 {
   margin-left: 55px;
+}
+@media (max-width: 1250px) {
+  .price-plans {
+    flex-direction: column;
+    margin-left: 25%;
+    height: 100%;
+  }
 }
